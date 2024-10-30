@@ -30,15 +30,27 @@
   bibtex_show  = {true},
   preview = {ECML_PKDD_2024_MakingAliceAppearLikeBob.png}
 }
-@inproceedings{DBLP:conf/sigir/EscobedoRSDLL24,
-  author       = {Gustavo Escobedo and
-                  Christian Ganh{\"{o}}r and
-                  Stefan Brandl and
-                  Mirjam Augstein and
-                  Markus Schedl},
-  title        = {Simultaneous Unlearning of Multiple Protected User Attributes From Variational Autoencoder Recommenders Using Adversarial Training},
-  booktitle    = {Proceedings of the 5th International Workshop on Algorithmic Bias in Search and Recommendation BIAS -- SIGIR (2024)},
-  year         = {2024},
+@InProceedings{10.1007/978-3-031-71975-2_7,
+author="Escobedo, Gustavo
+and Ganh{\"o}r, Christian
+and Brandl, Stefan
+and Augstein, Mirjam
+and Schedl, Markus",
+editor="Bellogin, Alejandro
+and Boratto, Ludovico
+and Kleanthous, Styliani
+and Lex, Elisabeth
+and Malloci, Francesca Maridina
+and Marras, Mirko",
+title="Simultaneous Unlearning of Multiple Protected User Attributes From Variational Autoencoder Recommenders Using Adversarial Training",
+booktitle="Advances in Bias and Fairness in Information Retrieval",
+year="2025",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="91--102",
+abstract="In widely used neural network-based collaborative filtering models, users' history logs are encoded into latent embeddings that represent the users' preferences. In this setting, the models are capable of mapping users' protected attributes (e.g., gender or ethnicity) from these user embeddings even without explicit access to them, resulting in models that may treat specific demographic user groups unfairly and raise privacy issues. While prior work has approached the removal of a single protected attribute of a user at a time, multiple attributes might come into play in real-world scenarios. In the work at hand, we present  AdvXMultVAE  which aims to unlearn multiple protected attributes (exemplified by gender and age) simultaneously to improve fairness across demographic user groups. For this purpose, we couple a variational autoencoder (VAE) architecture with adversarial training (AdvMultVAE) to support simultaneous removal of the users' protected attributes with continuous and/or categorical values. Our experiments on two datasets,  LFM-2b-100k  and  Ml-1m, from the music and movie domains, respectively, show that our approach can yield better results than its singular removal counterparts (based on  AdvMultVAE) in effectively mitigating demographic biases whilst improving the anonymity of latent embeddings.",
+isbn="978-3-031-71975-2"
+
   pdf          = {https://arxiv.org/abs/2410.20965},
   bibtex_show  = {true},
   preview = {2024_07_BIAS-SIGIR_Escobedo_advxmultvae.png}
